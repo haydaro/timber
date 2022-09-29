@@ -1,0 +1,52 @@
+@media (max-width: 600px) {
+}
+@media (max-width: 768px) {
+  .home .header .hed {
+    background-color: #000;
+  }
+  .home .header .hed > ul {
+    display: none;
+  }
+  .home .header .hed i {
+    display: block;
+    font-size: 22px;
+    cursor: pointer;
+  }
+}
+@media (max-width: 992px) {
+  .home .value .boxs,
+  .betwin .boxs,
+  .about .plus .paple,
+  .contact .plus,
+  .fouter {
+    flex-direction: column;
+  }
+  .about .value .boxs {
+    gap: 30px;
+    flex-direction: column;
+  }
+  .about .plus > img {
+    display: none;
+  }
+  .downlod {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .downlod a:last-child {
+    margin-left: 0;
+  }
+  .contact .ochap input:last-child {
+    margin-top: 10px;
+  }
+  .news .value .box {
+    width: 85%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .about .plus > img {
+    left: -108px;
+    top: 28px;
+  }
+}
